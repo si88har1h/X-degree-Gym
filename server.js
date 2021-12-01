@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.use(express.json())
 
 app.get('/',(req,res)=>{
-    res.sendFile(_dirname + '/public/index.html')
+    res.sendFile(_dirname + 'https://si88har1h.github.io/X-degree-Gym/')
 })
 
 app.post('/', (req,res)=>{
